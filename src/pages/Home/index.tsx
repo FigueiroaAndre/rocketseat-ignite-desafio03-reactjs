@@ -29,7 +29,6 @@ const Home = (): JSX.Element => {
     sumAmount[product.id] = product.amount;
     return sumAmount;
   }, {} as CartItemsAmount)
-  console.log(cartItemsAmount);
 
   useEffect(() => {
     async function loadProducts() {
